@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix::after {
@@ -20,9 +21,20 @@
     margin: 0 auto;
     height: 600px;
     max-width: 1200px;
+    position:relative;
+}
+
+.immagine {
+    background-size: 50%;
+
+    position:absolute;
+    right: 0;
+    bottom:0;
+    height: 500px;
 }
 /* STILE NAV */
 nav {
+    line-height: 100px;
     padding-top:15px;
     width: 100%;
     height:100px;
@@ -47,14 +59,19 @@ nav {
 
 .nav-login ul li, .nav-ul ul li {
     display:inline;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 0 5px;
 }
 /* FINE NAV */
 
 .titolo {
-    width: 60%;
     height:500px;
     position:relative;
-    float:left;
+    background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: bottom right;
 }
 
 .banner {
@@ -63,7 +80,7 @@ nav {
     left:0;
     transform: translate(0, -50%);
 }
-.piano-centrale {
+.piano {
     border-top: 25px;
     border-radius: 5%;
     background-color: #7fb802;
@@ -72,11 +89,6 @@ nav {
     text-decoration: none;
 }
 
-.immagine {
-    height:500px;
-    width: 40%;
-    float:left;
-}
 .immagine img {
     height: 100%;
     transform: translate(-25%,0);
@@ -145,4 +157,8 @@ p {
 a {
     text-decoration: none;
     color: white;
+}
+
+h1 {
+    font-size: 35px;
 }
