@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display:table;
+    clear:both;
+}
+/* Stile sezione barra blu */
+.barra-blu-maxwidth {
+    background-color: #0d325a;
+}
+
+.barra-blu {
+    width: 90%;
+    margin: 0 auto;
+    height: 600px;
+    max-width: 1200px;
+}
+/* STILE NAV */
+nav {
+    padding-top:15px;
+    display: inline-block;
+    color: white;
+    width: 100%;
+    height:100px;
+}
+
+.nav-img {
+    width: 20%;
+    float:left;
+}
+
+.nav-ul {
+    width: 40%;
+    float:left;
+    text-align: center;
+}
+
+.nav-login {
+    width: 40%;
+    float:right;
+    text-align: right;
+}
+
+.nav-login ul li, .nav-ul ul li {
+    display:inline;
+}
+/* FINE NAV */
+
+.titolo {
+    width: 60%;
+    height:500px;
+    background-color: red;
+    float:left;
+}
+
+.immagine {
+    background-color: green;
+    height: 500px;
+    width: 40%;
+    float:left;
+}
+/* FINE BARRA BLU */
+/* INIZIO BARRA GRIGIA */
+.barra-grigia {
+    background-color: #f9f9f9;
+}
+
+.testo-cx {
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: yellow;
+    max-width: 1200px;
+}
+
+/* FINE BARRA GRIGIA */
+/* INIZIO BARRA BIANCA */
+
+.barra-bianco {
+    border-bottom: 5px solid black;
+}
+
+.blocco {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    height: 400px;
+    text-align: center;
+    background-color: pink;
+}
+
+.scheda {
+    border: solid black;
+    width: 33.333333%;
+    height: 100%;
+    float:left;
+    background-color: orange;
+    line-height: 400px;
+}
+
+/* FINE BARRA BIANCA */
