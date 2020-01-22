@@ -10,11 +10,12 @@
     clear:both;
 }
 /* Stile sezione barra blu */
-.barra-blu-maxwidth {
+.barra-blu {
     background-color: #0d325a;
 }
 
-.barra-blu {
+.blocco-sup {
+    color: white;
     width: 90%;
     margin: 0 auto;
     height: 600px;
@@ -23,13 +24,11 @@
 /* STILE NAV */
 nav {
     padding-top:15px;
-    display: inline-block;
-    color: white;
     width: 100%;
     height:100px;
 }
 
-.nav-img {
+.nav-logo {
     width: 20%;
     float:left;
 }
@@ -54,15 +53,33 @@ nav {
 .titolo {
     width: 60%;
     height:500px;
-    background-color: red;
+    position:relative;
     float:left;
 }
 
+.banner {
+    position: absolute;
+    top:40%;
+    left:0;
+    transform: translate(0, -50%);
+}
+.piano-centrale {
+    border-top: 25px;
+    border-radius: 5%;
+    background-color: #7fb802;
+    text-transform: uppercase;
+    padding: 15px;
+    text-decoration: none;
+}
+
 .immagine {
-    background-color: green;
-    height: 500px;
+    height:500px;
     width: 40%;
     float:left;
+}
+.immagine img {
+    height: 100%;
+    /* transform: translate(-25%,0); */
 }
 /* FINE BARRA BLU */
 /* INIZIO BARRA GRIGIA */
@@ -82,7 +99,7 @@ nav {
 /* INIZIO BARRA BIANCA */
 
 .barra-bianco {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid grey;
 }
 
 .blocco {
@@ -104,7 +121,6 @@ nav {
     width: 50%;
     height: 50%;
     object-fit: contain;
-    margin: 0 auto;
 }
 
 h6 {
@@ -125,3 +141,8 @@ p {
 }
 
 /* FINE BARRA BIANCA */
+
+a {
+    text-decoration: none;
+    color: white;
+}
