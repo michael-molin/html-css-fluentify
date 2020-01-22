@@ -71,10 +71,10 @@ nav {
 }
 
 .testo-cx {
-    height: 100px;
+    padding: 15px 0;
     width: 90%;
     margin: 0 auto;
-    background-color: yellow;
+    text-align: center;
     max-width: 1200px;
 }
 
@@ -82,25 +82,46 @@ nav {
 /* INIZIO BARRA BIANCA */
 
 .barra-bianco {
-    border-bottom: 5px solid black;
+    border-bottom: 2px solid black;
 }
 
 .blocco {
     max-width: 1200px;
     width: 90%;
-    margin: 0 auto;
+    margin: 15px auto 0;
     height: 400px;
     text-align: center;
-    background-color: pink;
 }
 
 .scheda {
-    border: solid black;
     width: 33.333333%;
     height: 100%;
+    text-align: center;
     float:left;
-    background-color: orange;
-    line-height: 400px;
+}
+
+.scheda img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+h6 {
+    font-size: 23px;
+    min-height: 50px;
+    color: #7fb802;
+}
+
+hr {
+    width: 32px;
+    opacity: 0.3;
+    margin: 10px auto;
+}
+
+p {
+    color: #999;
+    padding: 0 30px;
 }
 
 /* FINE BARRA BIANCA */
